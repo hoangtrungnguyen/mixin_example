@@ -30,14 +30,6 @@ class HomeCubit extends BaseCubit<HomeState> {
     return super.close();
   }
 
-  void pause() {
-    listener.pause();
-  }
-
-  void resume() {
-    listener.resume();
-  }
-
   void update() {
     appRepository.update();
   }
