@@ -8,7 +8,6 @@ on BaseState<Cubit, Page>{
   Widget get fab => const SizedBox();
 
 
-
   @override
   Scaffold scaffold(BuildContext context) {
     return Scaffold(
